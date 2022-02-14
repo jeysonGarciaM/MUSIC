@@ -1,0 +1,556 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    font-size: 46px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    background-color: #fd4c5c;
+    border-radius: 100px ;
+    color: white;
+    border: none;
+    font-size: 23px;
+    margin: 50px;
+    padding: 5px;
+    margin-left: -1px;
+}
+
+button:hover{
+    background-color: #eb3f14;
+    border-radius: 100px ;
+    color: white;
+    border: none;
+    font-size: 23px;
+    margin: 50px;
+    padding: 5px;
+    margin-left: -1;
+}
+
+button1{
+    background-color: #fd4c5c;
+    border-radius: 100px ;
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin:10px;
+    padding: 10px;
+    margin-left:-1px;
+    
+}
+
+button1:hover{
+    background-color: #eb3f14;
+    border-radius: 100px ;
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin: 10px;
+    padding: 10px;
+    margin-left: -1px;
+}
+
+/* imagenes */
+#imagen01{
+    width: 1349px;
+    height: 760px;
+}
+#imagen04{
+    height: 556px;
+}
+
+
+/* contenedores */
+.container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.container2{
+    position: relative;
+    display: inline-block;
+    text-align:right;
+}
+
+.center2{
+    position: absolute;
+    top: 50%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+/* textos */
+.tituloprincipal{
+    font-size: 140px;
+    color: white;
+    margin: -1px 180px 1px 260px;
+}
+
+span{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, #fa4a54, #da0170);
+    font-family:system-ui;
+    font-size: 3rem;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.ultimotexto1{
+    font-size: 62px;
+    color: white;
+}
+
+.ultimotexto{
+    color: white;
+    font-size: 16px;
+}
+
+p {
+    font-size: 12px;  
+    margin-bottom: -1rem;
+    text-align: justify;
+}
+.texto{
+    font-size: 16px;
+}
+
+.flotante01{
+    float: left;
+    height: 550px;
+    margin: -40px 100px 0px 0px;
+}
+
+.flotante02{
+    float:left;
+    height: 550px;
+    margin-left: -28px;
+}
+
+.margen{
+    margin: 200px 100px 20px 200px;
+}
+
+
+.clear{
+    clear: both;
+}
+
+
+.cajontextos{
+    float: left;
+    width: 500px;
+    
+}
+
+.cajontextos2{
+    width: 455px;
+    margin-left: 400px;
+    margin-right: 200px;
+}
+
+footer{
+    background: linear-gradient(90deg,#fd4c5c, #fd2e5c);
+    font-family:system-ui;
+    font-size: 12px;
+    margin-top: -5px ;
+    color: white;
+    padding: 20px 104px;
+    width: 1141px;
+}
+
+.correo{
+    text-align: right;
+    margin: -17px 0 0 0;
+}
+
+.nombre{
+    text-align: left;
+    width: 400px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 30px 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 90px;
+    width: 400px;
+    height: 150px;
+    margin-top: 32px;
+  }
+
+/* Media queries 800px */
+
+
+  @media screen and (max-width: 800px) {
+    #imagen01 {
+
+            width: 800px;
+            height: 480px;
+    }
+
+    .tituloprincipal{
+        font-size: 85px;
+        color: white;
+        margin-left: 230px;
+        margin-top: -60px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .flotante01{
+        float: left;
+        height: 340px;
+        margin-top: -390px;
+        margin-left: 300px;
+
+    }
+
+   .cajontexto{
+    font-size: 12px;
+    margin-left: -140px;
+    }
+    
+    .texto{
+        font-size: 17px;
+        margin-left: -140px;
+    }
+
+    .cajontextos{
+    float: left;
+    width: 300px; 
+    margin-left: -10px;
+    }
+
+    h2{
+        font-size: 40px;
+        margin-top: -100px;
+        margin-left: -140px;
+    }
+
+    span{
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, #fa4a54, #da0170);
+        font-family:system-ui;
+        font-size: 2.5rem;
+       
+        
+    
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 800px) {
+    .flotante02{
+        float:left;
+        height: 350px;
+        margin-left: -170px;
+        margin-top: 81px;
+        
+    }
+    .cajontextos2{
+        width: 300px;
+        margin-left:260px;
+        margin-top: 440px;
+    }
+
+    button{
+        background-color: #fd4c5c;
+        border-radius: 100px ;
+        color: white;
+        border: none;
+        font-size: 17px;
+        margin:10px;
+        padding: 10px;
+        margin-left: -140px;
+        margin-top: 20px;
+    }
+    
+    button:hover{
+        background-color: #eb3f14;
+        border-radius: 100px ;
+        color: white;
+        border: none;
+        font-size: 17px;
+        margin: 10px;
+        padding: 10px;
+        margin-left: -140px;
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 800px) {
+        #imagen04{
+            height: 330px;
+        }
+        .ultimotexto1{
+            font-size: 37px;
+            color: white;
+        }
+        
+        .ultimotexto{
+            color: white;
+            font-size: 10px;
+        }
+        button1{
+            background-color: #fd4c5c;
+            border-radius: 100px ;
+            color: white;
+            border: none;
+            font-size: 17px;
+            margin:10px;
+            padding: 10px;
+            margin-left:-1px;
+            
+        }
+        
+        button1:hover{
+            background-color: #eb3f14;
+            border-radius: 100px ;
+            color: white;
+            border: none;
+            font-size: 17px;
+            margin: 10px;
+            padding: 10px;
+            margin-left: -1px;
+        }
+
+        footer{
+            background: linear-gradient(90deg,#fd4c5c, #fd2e5c);
+            font-family:system-ui;
+            font-size: 12px;
+            margin-top: -5px ;
+            color: white;
+            padding: 20px 104px;
+            width: 592px;
+        }
+        
+        .correo{
+            text-align: right;
+            margin: -17px 0 0 0;
+        }
+        
+        .nombre{
+            text-align: left;
+            width: 400px;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-rows: 30px 30px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 50px;
+            width: 400px;
+            height: 130px;
+            margin-top: 20px;
+            margin-left: -50px;
+          }
+    }
+
+}
+/* Media queries 576px */
+
+
+@media screen and (max-width: 576px) {
+    #imagen01 {
+
+            width: 576px;
+            height: 360px;
+    }
+
+    .tituloprincipal{
+        font-size: 60px;
+        color: white;
+        margin-left: 214px;
+        margin-top: -40px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .flotante01{
+        float: center;
+        height: 340px;
+        margin-top: 60px;
+        margin-left: -45px;
+
+    }
+
+   .cajontexto{
+    font-size: 12px;
+    margin-left: -140px;
+    }
+    
+    .texto{
+        font-size: 17px;
+        margin-left: -140px;
+    }
+
+    .cajontextos{
+    float: left;
+    width: 300px; 
+    margin-left: 14px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-top: -100px;
+        margin-left: -140px;
+    }
+
+    span{
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, #fa4a54, #da0170);
+        font-family:system-ui;
+        font-size: 1.8rem;
+       
+        
+    
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    
+@media screen and (max-width: 576px) {
+    .flotante02{
+        float:left;
+        height: 340px;
+        margin-left: -45px;
+        margin-top: 60px;
+        
+    }
+    .cajontextos2{
+        width: 300px;
+        margin-left:16px;
+        margin-top: 1200px;
+    }
+
+    button{
+        background-color: #fd4c5c;
+        border-radius: 100px ;
+        color: white;
+        border: none;
+        font-size: 15px;
+        margin:10px;
+        padding: 10px;
+        margin-left: -140px;
+        margin-top: 20px;
+    }
+    
+    button:hover{
+        background-color: #eb3f14;
+        border-radius: 100px ;
+        color: white;
+        border: none;
+        font-size: 15px;
+        margin: 10px;
+        padding: 10px;
+        margin-left: -140px;
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 576px) {
+        #imagen04{
+            height: 237.8px;
+        }
+        .ultimotexto1{
+            font-size: 20px;
+            margin-left: 46px;
+            color: white;
+        }
+        
+        .ultimotexto{
+            color: white;
+            font-size: 10px;
+            margin-left: 50px;
+            margin-top: 20px;
+        
+        }
+        button1{
+            background-color: #fd4c5c;
+            border-radius: 100px ;
+            color: white;
+            border: none;
+            font-size: 10px;
+            margin:10px;
+            padding: 10px;
+            margin-left: 50px;
+            
+        }
+        
+        button1:hover{
+            background-color: #eb3f14;
+            border-radius: 100px ;
+            color: white;
+            border: none;
+            font-size: 10px;
+            margin: 10px;
+            padding: 10px;
+            margin-left: -1px;
+        }
+
+        footer{
+            background: linear-gradient(90deg,#fd4c5c, #fd2e5c);
+            font-family:system-ui;
+            font-size: 12px;
+            margin-top: -5px ;
+            color: white;
+            padding: 20px 104px;
+            width: 368px;
+        }
+        
+        .correo{
+            text-align: right;
+            margin: -12px 0 0 0;
+            font-size: 8px;
+        }
+        
+        .nombre{
+            text-align: left;
+            width: 400px;
+            font-size: 8px;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-rows: 30px 30px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 10px;
+            width: 400px;
+            height: 110px;
+            margin-top: 12px;
+            margin-left: -50px;
+            font-size: 10px;
+          }
+    }
+
+}
+
+    
+
+}
+
+  
